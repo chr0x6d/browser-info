@@ -1,4 +1,4 @@
-# README
+# Browser-Info
 
 Website to check what information your browser is currently exposing.
 
