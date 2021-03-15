@@ -28,7 +28,17 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+# For bootstrap with scss
 gem 'bootstrap-sass'
+
+# Gem that makes it easy to grab browser info
+gem 'browser_sniffer'
+
+# Gather networking information from client
+gem 'ahoy_matey'
+
+# Gather location information
+gem 'geocoder'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

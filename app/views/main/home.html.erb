@@ -1,0 +1,7 @@
+<p>The below information is available to every website you visit</p>
+<h2>General Information</h2>
+<p>Your IP address is <b><%= @ip_addr %></b></p>
+<p>You are running a <b><%= @browser.os %> <%= @browser.os_version %></b> operating system, with device type <b><%= @browser.form_factor %></b>.</p>
+<p>Your browser is <b><%= @browser.browser %> <%= @browser.major_browser_version %></b> which is running engine <b><%= @browser.engine %> <%= @browser.major_engine_version %></b>.</p>
+<p>You are in country <b><%= @geo.first.country %></b>, state <b><%= @geo.first.state %></b> and city <b><%= @geo.first.city %></b></p>
+<h2>Other Information</h2>
